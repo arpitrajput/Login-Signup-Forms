@@ -1,0 +1,126 @@
+    body {
+            background-size: cover;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+            height: 100%;
+        }
+
+        .header {
+            font-size: 2em;
+            font-family: 'Helvetica-Header';
+            letter-spacing: 3px;
+            color: white;
+            text-transform: uppercase;
+            margin: 2% auto;
+        }
+
+        .main {
+            margin: 2% auto;
+            font-family: 'Helvetica-Header';
+            width: 40vw;
+            border-radius: 5px;
+        }
+
+        .sub-head {
+            font-size: 35px;
+            padding: 10px;
+            color: white;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .sub-main {
+            position: relative;
+            padding: 12;
+        }
+
+        .sub-main input[type="text"],
+        .sub-main input[type="password"] {
+            outline: none;
+            font-size: 1.1em;
+            margin: 4px 0px 18px 1px;
+            color: blak;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 2px;
+            width: 68%;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .sub-main input[type="submit"] {
+            color: gray;
+            background: #d9edf7;
+            border: none;
+            padding: 14px 30px;
+            font-size: 22px;
+            border-radius: 2px;
+            margin: 1px;
+            font-family: 'Lato', sans-serif;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: 0.5s all;
+        }
+
+        .sub-main input[type="submit"]:hover {
+            background: #d9edf7;
+            color: black;
+            transition: 0.5s all;
+        }
+
+        p {
+            color: white;
+            padding-bottom: 10px;
+            font-size: 15px;
+        }
+
+        span {
+            color: darkgray;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 17px;
+        }
+
+        span:hover {
+            color: white;
+            cursor: pointer;
+        }
+
+        @media only screen and (max-width: 1000px) {
+
+            .main {
+                width: 70%;
+            }
+            body {
+                min-height: 100vh;
+                background-repeat: no-repeat;
+            }
+        }
+
+        @media only screen and (max-width: 700px) {
+
+            .main {
+                width: 90%;
+            }
+
+        }
+
+        #signup {
+            display: none;
+        }
+
+        .close {
+            color: white;
+            float: right;
+            font-size: 38px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+          
