@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log in</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body style="background-image: url(../images/minimalism_circles_lines_light_38892_1600x1200.jpg)">
+    <div class="header">
+        <h1>Company Name</h1>
+    </div>
+    <div class="main login" id="login" style="margin-top: 10%; background: rgba(0, 38, 51, 0.65);">
+        <h2 class="sub-head">Sign In</h2>
+
+        <div class="sub-main">
+            <form>
+                <input placeholder="Email ID" name="mail" type="text" required=""><br>
+                <input placeholder="Password" name="Password" class="pass" type="password" required="">
+                <input type="submit" value=" sign in">
+                <p>Don't have an account?<span id="signup-btn"> Sign up</span></p>
+
+            </form>
+        </div>
+    </div>
+    <div class="main signup" id="signup" style="background: rgba(0, 38, 51, 0.65);">
+        <span class="close">&times;</span>
+        <h2 class="sub-head">Sign Up</h2>
+        <div class="sub-main">
+            <form>
+                <input placeholder="Full Name" name="Name" type="text" required=""><br>
+                <input placeholder="ID Number" name="Enrollment" type="text" required=""><br>
+                <input placeholder="Mobile Number" name="MoibleNumber" type="text" required=""><br>
+                <input placeholder="Email ID" name="mail" type="text" required=""><br>
+                <input placeholder="Department" name="Department" type="text" required=""><br>
+                <input placeholder="Password" name="Password" class="pass" type="password" required="">
+                <input placeholder="Confirm Password" name="Password" type="password" required=""><br>
+                <input type="submit" value="sign up">
+                <p>Have an account?<span id="login-btn"> Log in</span></p>
+            </form>
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
